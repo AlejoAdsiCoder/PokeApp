@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <link rel="stylesheet" href="css/mdb.ecommerce.min.css" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mdb-pro.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>PokeApp</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top scrolling-navbar">
+            <div class="container-fluid">
+                <!-- Brand -->
+                <a class="navbar-brand" href="https://mdbecommerce.com/">
+                    <i class="fab fa-mdb fa-3x" alt="mdb logo"></i>
+                </a>
+
+                <div class="md-form md-outline d-flex justify-content-between align-items-center">
+                    <input type="text" id="search12" class="form-control mb-0" placeholder="Search...">
+                    <label for="search12">Search</label>
+                    <a href="#!" class="btn btn-flat btn-md px-3 waves-effect"><i class="fas fa-search fa-lg"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+    <div class="row mt-5">
+        <section class="col-md-4 mb-4">
+            <!-- Section: Sidebar -->
+            <section class="sidebar">
+            <!-- Section: Filters -->
+                <h5>Filters</h5>
+        
+                <!-- Section: Condition -->
+                <section class="mb-4 types" filter="condition">
+            
+                    <h6 class="font-weight-bold mb-3">Condition</h6>
+
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="normal" type="checkbox" class="filter-option form-check-input filled-in" id="normal">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="normal">normal</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="fighting" type="checkbox" class="filter-option form-check-input filled-in" id="fighting">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="fighting">fighting</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="flying" type="checkbox" class="filter-option form-check-input filled-in" id="flying">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="flying">flying</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="poison" type="checkbox" class="filter-option form-check-input filled-in" id="poison">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="poison">poison</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="ground" type="checkbox" class="filter-option form-check-input filled-in" id="ground">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="ground">ground</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="rock" type="checkbox" class="filter-option form-check-input filled-in" id="rock">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="rock">rock</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="bug" type="checkbox" class="filter-option form-check-input filled-in" id="bug">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="bug">bug</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="ghost" type="checkbox" class="filter-option form-check-input filled-in" id="ghost">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="ghost">ghost</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="steel" type="checkbox" class="filter-option form-check-input filled-in" id="steel">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="steel">steel</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="fire" type="checkbox" class="filter-option form-check-input filled-in" id="fire">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="fire">fire</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="water" type="checkbox" class="filter-option form-check-input filled-in" id="water">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="water">water</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="grass" type="checkbox" class="filter-option form-check-input filled-in" id="grass">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="grass">grass</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="electric" type="checkbox" class="filter-option form-check-input filled-in" id="electric">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="electric">electric</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="psychic" type="checkbox" class="filter-option form-check-input filled-in" id="psychic">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="psychic">psychic</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="ice" type="checkbox" class="filter-option form-check-input filled-in" id="ice">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="ice">ice</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="dragon" type="checkbox" class="filter-option form-check-input filled-in" id="dragon">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="dragon">dragon</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="dark" type="checkbox" class="filter-option form-check-input filled-in" id="dark">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="dark">dark</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="fairy" type="checkbox" class="filter-option form-check-input filled-in" id="fairy">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="fairy">fairy</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="unknown" type="checkbox" class="filter-option form-check-input filled-in" id="unknown">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="unknown">unknown</label>
+                    </div>
+                
+                    <div class="form-check pl-0 mb-3">
+                        <input condition="shadow" type="checkbox" class="filter-option form-check-input filled-in" id="shadow">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="shadow">shadow</label>
+                    </div>
+            
+                </section>
+            
+                <!-- Section: Color -->
+                <!-- Section: Color -->
+                <section class="mb-4" filter="color">
+                    <h6 class="font-weight-bold mb-3">Color</h6>
+                
+                    <div class="btn-group btn-group-toggle btn-color-group d-block mt-n2 ml-n2" data-toggle="buttons">
+                    <label
+                        for="color-1"
+                        class="btn rounded-circle white border-inset-grey p-3 m-2"
+                    >
+                        <input
+                        id="color-1"
+                        class="filter-option"
+                        type="checkbox"
+                        color="white"
+                        />
+                    </label>
+                    <label for="color-2" class="btn rounded-circle grey p-3 m-2">
+                        <input
+                        id="color-2"
+                        class="filter-option"
+                        type="checkbox"
+                        color="grey"
+                        />
+                    </label>
+                    <label for="color-3" class="btn rounded-circle black p-3 m-2">
+                        <input
+                        id="color-3"
+                        class="filter-option"
+                        type="checkbox"
+                        color="black"
+                        />
+                    </label>
+                    <label for="color-4" class="btn rounded-circle green p-3 m-2">
+                        <input
+                        id="color-4"
+                        class="filter-option"
+                        type="checkbox"
+                        color="green"
+                        />
+                    </label>
+                    <label for="color-5" class="btn rounded-circle blue p-3 m-2">
+                        <input
+                        id="color-5"
+                        class="filter-option"
+                        type="checkbox"
+                        color="blue"
+                        />
+                    </label>
+                    <label for="color-6" class="btn rounded-circle purple p-3 m-2">
+                        <input
+                        id="color-6"
+                        class="filter-option"
+                        type="checkbox"
+                        color="purple"
+                        />
+                    </label>
+                    <label for="color-7" class="btn rounded-circle yellow p-3 m-2">
+                        <input
+                        id="color-7"
+                        class="filter-option"
+                        type="checkbox"
+                        color="yellow"
+                        />
+                    </label>
+                    <label for="color-8" class="btn rounded-circle indigo p-3 m-2">
+                        <input
+                        id="color-8"
+                        class="filter-option"
+                        type="checkbox"
+                        color="indigo"
+                        />
+                    </label>
+                    <label for="color-9" class="btn rounded-circle red p-3 m-2">
+                        <input
+                        id="color-9"
+                        class="filter-option"
+                        type="checkbox"
+                        color="red"
+                        />
+                    </label>
+                    <label for="color-10" class="btn rounded-circle orange p-3 m-2">
+                        <input
+                        id="color-10"
+                        class="filter-option"
+                        type="checkbox"
+                        color="orange"
+                        />
+                    </label>
+                    </div>
+                </section>
+                <!-- Section: Color -->
+
+                <section class="gender">
+                    <!-- Section: Price -->
+                    <section class="mb-4" filter="gender">
+                        <h6 class="font-weight-bold mb-3">Gender</h6>
+                    
+                        <div class="form-check pl-0 mb-3">
+                        <input
+                            type="radio"
+                            class="filter-option form-check-input"
+                            id="all"
+                            name="materialExampleRadios"
+                        />
+                        <label
+                            class="form-check-label small text-uppercase card-link-secondary"
+                            for="all"
+                            >All</label
+                        >
+                        </div>
+                        <div class="form-check pl-0 mb-3">
+                        <input
+                            type="radio"
+                            class="filter-option form-check-input"
+                            id="male"
+                            name="materialExampleRadios"
+                        />
+                        <label
+                            class="form-check-label small text-uppercase card-link-secondary"
+                            for="male"
+                            >Male</label
+                        >
+                        </div>
+                        <div class="form-check pl-0 mb-3">
+                        <input
+                            type="radio"
+                            class="filter-option form-check-input"
+                            id="female"
+                            name="materialExampleRadios"
+                        />
+                        <label
+                            class="form-check-label small text-uppercase card-link-secondary"
+                            for="female"
+                            >Female</label
+                        >
+                        </div>
+                        <div class="form-check pl-0 mb-3">
+                        <input
+                            type="radio"
+                            class="filter-option form-check-input"
+                            id="undefined"
+                            name="materialExampleRadios"
+                        />
+                        <label
+                            class="form-check-label small text-uppercase card-link-secondary"
+                            for="undefined"
+                            >Undefined</label
+                        >
+                        </div>
+                    </section>
+                </section>
+            </section>
+        
+    <!-- Section: Sidebar -->
+        </section>
+        <section class="col-md-8 mb-4">
+            <div class="row products"></div>
+        </section>
+    </div>
+
+    
+
+    </div>
+    <!-- MDB -->
+    <!-- <script type="text/javascript" src="js/mdb.min.js"></script> -->
+    
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
